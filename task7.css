@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#table{
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    margin: 30px;
+}
+#table td{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+#table thead{
+    background-color: #3c3c3c;
+    color: #fff;
+}
+.upBtn{
+    position: relative;
+    left: 20px;
+    top: 7px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    /*用边框做出正三角*/
+    border-bottom: 10px solid #fff;
+    border-top: none;
+    border-left: 10px solid transparent;/*设置但隐藏左右边框*/
+    border-right: 10px solid transparent;
+}
+.downBtn{
+    position: relative;
+    left:0px;
+    top: -7px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    /*用边框做出倒三角*/
+    border-top: 10px solid #fff;
+    border-bottom:  none;
+    border-left: 10px solid transparent;/*设置但隐藏左右边框*/
+    border-right: 10px solid transparent;
+}
